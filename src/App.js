@@ -8,7 +8,7 @@ import Support from "./pages/support";
 import Product_list from "./pages/productList";
 import Layout from "./layouts/layout"
 import Delivery from "./pages/delivery";
-import "leaflet/dist/leaflet.css";
+import Hi from "./pages/a"
 
 function App() {
   return (
@@ -22,6 +22,7 @@ function App() {
           <Route path="/productList" element={<Product_list/>} />
           <Route path="/product" element={<Product/>} />
           <Route path="/delivery" element={<Delivery/>} />
+          <Route path="/hi" element={<Hi/>} />
         </Routes>
         </Layout>
       </Router>
